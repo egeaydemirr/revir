@@ -15,11 +15,11 @@ if (theme.fonts.font_family.primary) {
     .replace(/:[ital,]*[ital@]*[wght@]*[0-9,;]+/gi, "");
   fontPrimaryType = theme.fonts.font_family.primary_type;
 }
-if (theme.fonts.font_family.secondary) {
-  fontSecondary = theme.fonts.font_family.secondary
+if (theme.fonts.font_family.text) {
+  fontSecondary = theme.fonts.font_family.text
     .replace(/\+/g, " ")
     .replace(/:[ital,]*[ital@]*[wght@]*[0-9,;]+/gi, "");
-  fontSecondaryType = theme.fonts.font_family.secondary_type;
+  fontSecondaryType = theme.fonts.font_family.text_type;
 }
 
 /** @type {import('tailwindcss').Config} */
@@ -50,7 +50,12 @@ module.exports = {
         secondary: theme.colors.default.theme_color.secondary,
         body: theme.colors.default.theme_color.body,
         border: theme.colors.default.theme_color.border,
-        "theme-light": theme.colors.default.theme_color.theme_light,
+        theme_light: theme.colors.default.theme_color.theme_light,
+        theme_dark: theme.colors.default.theme_color.theme_dark,
+        brown: theme.colors.default.theme_color.brown,
+        darkBrown: theme.colors.default.theme_color.darkBrown,
+        accent: theme.colors.default.theme_color.accent,
+        highlight: theme.colors.default.theme_color.highlight,
       },
       fontSize: {
         base: font_base + "px",

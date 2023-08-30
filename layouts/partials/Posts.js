@@ -4,6 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 const Posts = ({ posts }) => {
+  console.log(posts);
+  console.log(posts[0].frontmatter.description);
   const { blog_folder, summary_length } = config.settings;
   return (
     <div className="section row pb-0">
@@ -30,23 +32,19 @@ const Posts = ({ posts }) => {
                 {posts[0].frontmatter.title}
               </Link>
             </h2>
-            <p className="text-text">
-              {plainify(
-                posts[0].content?.slice(0, Number(summary_length)),
-                "div"
-              )}
-            </p>
+            {/* Description */}
+            <p className="text-text">{posts[0].frontmatter.description}</p>
             <Link
               className="btn btn-primary mt-4"
               href={`/${blog_folder}/${posts[0].slug}`}
               rel=""
             >
-              Read More
+              Devamını Oku
             </Link>
           </div>
         </div>
       </div>
-      {posts.slice(1).map((post, i) => (
+      {/* {posts.slice(1).map((post, i) => (
         <div key={`key-${i}`} className="col-12 mb-8 sm:col-6 lg:col-4">
           {post.frontmatter.image && (
             <Image
@@ -74,7 +72,7 @@ const Posts = ({ posts }) => {
             Read More
           </Link>
         </div>
-      ))}
+      ))} */}
     </div>
   );
 };

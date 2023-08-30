@@ -9,8 +9,9 @@ import Link from "next/link";
 const Footer = () => {
   const { copyright, footer_content } = config.params;
   const { footer } = menu;
+
   return (
-    <footer className="section bg-theme-light pb-0">
+    <footer className="section bg-white pb-0">
       <div className="container">
         {/* footer menu */}
         <div className="row">
@@ -31,7 +32,7 @@ const Footer = () => {
             );
           })}
           {/* social icons */}
-          <div className="md-12 sm:col-6 lg:col-3">
+          <div className="md-12 justify-center sm:col-6 lg:col-3">
             <Link href="/" aria-label="Bigspring">
               <Image
                 src={config.site.logo}

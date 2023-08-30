@@ -78,14 +78,14 @@ services:
 
 # workflow
 workflow:
-  title: "Experience the best workflow with us"
+  title: "Teknolojiyle birlikte sağlıkta dönüşüm sağlıyoruz"
   image: "/images/banner.svg"
   description: ""
 
 # call_to_action
 call_to_action:
   title: Başlamaya Hazır mısınız?
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur.
+  content: Siz de bu yeni platformun bir parçası olabilirsiniz.
   image: "/images/cta.svg"
   button:
     enable: true

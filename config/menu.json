@@ -5,7 +5,11 @@
       "url": "/"
     },
     {
-      "name": "Biz Kimiz?",
+      "name": "Hakkımızda",
+      "url": "/about"
+    },
+    {
+      "name": "Gelişmeler",
       "url": "/blogs"
     }
   ],
@@ -15,7 +19,7 @@
       "menu": [
         {
           "text": "Ücretlendirme",
-          "url": "/pricing"
+          "url": "/404"
         },
         {
           "text": "İletişim",
@@ -24,36 +28,32 @@
       ]
     },
     {
-      "name": "Product",
+      "name": "Hizmetlerimiz",
       "menu": [
         {
-          "text": "Features",
-          "url": "#"
+          "text": "Özellikler",
+          "url": "/404"
         },
         {
           "text": "Platform",
-          "url": "#"
-        },
-        {
-          "text": "Pricing",
-          "url": "/pricing"
+          "url": "/404"
         }
       ]
     },
     {
-      "name": "Support",
+      "name": "Destek",
       "menu": [
         {
-          "text": "FAQ",
-          "url": "/faq"
+          "text": "Sıkça Sorulan Sorular",
+          "url": "/404"
         },
         {
-          "text": "Privacy Policy",
-          "url": "#"
+          "text": "Gizlilik Politikası",
+          "url": "/404"
         },
         {
-          "text": "Terms & Conditions",
-          "url": "#"
+          "text": "Kullanım Koşulları",
+          "url": "/404"
         }
       ]
     }

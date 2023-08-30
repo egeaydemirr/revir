@@ -1,4 +1,4 @@
 ---
-title: "Latest news"
+title: "Neler geliştiriyoruz"
 description: "this is meta description"
 ---
