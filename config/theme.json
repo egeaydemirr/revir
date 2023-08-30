@@ -8,14 +8,12 @@
         "highlight": "#c3ffff",
         "brown": "#a8490a",
         "darkBrown": "#763307",
-        "body": "#fff",
         "border": "#e9e9e9",
         "theme_light": "#edf6f5"
       },
       "text_color": {
         "default": "#777",
-        "dark": "#3a506b",
-        "black": "#000"
+        "dark": "#3a506b"
       }
     }
   },

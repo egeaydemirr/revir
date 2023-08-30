@@ -1,0 +1,11 @@
+{
+  "about": {
+    "title": "Biz Kimiz?",
+    "layout": "about",
+    "draft": false,
+    "info": {
+      "title": "Bizim Hakkımızdaki Her Şey",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt."
+    }
+  }
+}
