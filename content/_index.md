@@ -78,7 +78,7 @@ services:
 
 # workflow
 workflow:
-  title: "Experience the best workflow with us"
+  title: "Teknolojiyle birlikte sağlıkta dönüşüm sağlıyoruz"
   image: "/images/banner.svg"
   description: ""
 

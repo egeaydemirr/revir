@@ -20,7 +20,7 @@ const Home = ({ frontmatter }) => {
         <div className="container">
           <div className="row text-center">
             <div className="mx-auto lg:col-10">
-              <h1 className="font-primary font-bold">{banner.title}</h1>
+              <h1 className=" font-primary">{banner.title}</h1>
               <p className="mt-4">{markdownify(banner.content)}</p>
               {banner.button.enable && (
                 <Link
@@ -83,7 +83,7 @@ const Home = ({ frontmatter }) => {
           {markdownify(
             workflow.title,
             "h2",
-            "mx-auto max-w-[400px] font-bold leading-[44px]"
+            "mx-auto max-w-[800px] font-bold leading-[44px]"
           )}
           {markdownify(workflow.description, "p", "mt-3")}
         </div>
